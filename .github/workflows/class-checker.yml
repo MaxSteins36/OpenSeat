@@ -4,12 +4,10 @@ name: UCR Class Availability Checker
 
 on:
   workflow_dispatch:
-  
   schedule:
     # This cron syntax runs the job every 5 minutes.
     # Note: GitHub may occasionally delay a scheduled run by a few minutes.
     - cron: '*/5 * * * *'
-
 jobs:
   check-availability:
     runs-on: ubuntu-latest
