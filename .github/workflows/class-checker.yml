@@ -1,3 +1,5 @@
+# Nudging the scheduler to re-initialize
+
 name: UCR Class Availability Checker
 
 on:
